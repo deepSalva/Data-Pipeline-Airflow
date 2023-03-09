@@ -75,7 +75,7 @@ For test purpose, only a fraction of the data is necessary**
 
 For this exercise the ETL pipeline design is not the main focus. For that, the repository contain all the necessary resources
 for the ETL pipeline design. The project is based on the Apache Airflow implementation orchestrating the ETL pipeline. 
-To learn more about the ETL implementation please refer to my other repository [here]().
+To learn more about the ETL implementation please refer to my other repository [here](https://github.com/deepSalva/Data_Warehouse_Redshift).
 
 
 ## Redshift serverless cluster
