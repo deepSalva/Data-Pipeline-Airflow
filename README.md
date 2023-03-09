@@ -135,7 +135,7 @@ The project is running with a Docker installation for Apache Airflow.
 To know more about the different installations please follow this YouTube [tutorial](https://www.youtube.com/watch?v=K9AnJ9_ZAXE).
 
 ## Project execution
-![alt text](dags/DAG estructure.png "working DAG")
+![alt text](https://github.com/deepSalva/Data_Pipeline_Airflow/blob/main/dags/DAG%20estructure.png "working DAG")
 
 To complete the project we will build a DAG with different tasks for the Airflow orchestration. 
 All the operators and task instances will run SQL statements against the Redshift database. The queries
