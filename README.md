@@ -102,7 +102,9 @@ For that the next steps are require:
 Once the cluster is created, go inside the cluster and in actions, clik on "Modify public accessibility" and click on 
 "Enable". 
 5. Go back to the Redshift Workgroup and copy the endpoint. Store this locally as we will need this while configuring 
-Airflow. Example: `default.365818xxxxxx.us-east-1.redshift-serverless.amazonaws.com:5439/dev`
+Airflow. Example: 
+
+`default.365818xxxxxx.us-east-1.redshift-serverless.amazonaws.com:5439/dev`
 
 If you are not familiar with the AWS and Redshift role creation please refer to: [Redshift tutorial](https://docs.aws.amazon.com/redshift/latest/dg/tutorials-redshift.html)
 
