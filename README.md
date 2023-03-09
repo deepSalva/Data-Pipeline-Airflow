@@ -2,7 +2,7 @@
 
 <div align="justify">
 This repository is a use case for developing a Redshift serverless cluster data warehouse (DWH) in Amazon Web Service (AWS).
-The goal of the repository is to automate and monitor an ETL process with **Apache Airflow**. The use case is based on an
+The goal of the repository is to automate and monitor an ETL process with Apache Airflow. The use case is based on an
 imaginary music streaming startup, Sparkify, that has grown their user base and song database, and they 
  expect to create high grade data pipelines that are dynamic and 
 built from reusable tasks, can be monitored, and allow easy backfills. run tests against their datasets after the ETL 
@@ -45,6 +45,7 @@ dataset above. These simulate app activity logs from an imaginary music streamin
 For loading JSON files to Redshift check [here](https://hevodata.com/learn/json-to-redshift/)
 
 **Tip: You will want to copy the data to your own bucket.**
+
 
 
 ### Copy S3 Data
