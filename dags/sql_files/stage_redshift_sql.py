@@ -110,18 +110,6 @@ class SqlQueries:
         {}
     """
 
-    # staging_songs_copy = COPY_SQL.format(
-    #     "staging_songs",
-    #     "s3://salvig-sst-udacity-airflowpro/song-data",
-    #     "format as json 'auto'"
-    # )
-
-    # staging_events_copy = COPY_SQL.format(
-    #     "staging_events",
-    #     "s3://salvig-sst-udacity-airflowpro/log-data",
-    #     "json 's3://salvig-sst-udacity-airflowpro/log_json_path.json'"
-    # )
-
     quality_null = ("""
         select 
             sum(case when {} is null then 1 else 0 end) as sum_colum
