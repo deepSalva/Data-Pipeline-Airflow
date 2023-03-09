@@ -1,6 +1,6 @@
 # Cluster Warehouse with Apache Airflow
 
-
+<div align="justify">
 This repository is a use case for developing a Redshift serverless cluster data warehouse (DWH) in Amazon Web Service (AWS).
 The goal of the repository is to automate and monitor an ETL process with **Apache Airflow**. The use case is based on an
 imaginary music streaming startup, Sparkify, that has grown their user base and song database, and they 
@@ -169,4 +169,4 @@ values by counting all the rows that have NULL in the column. We do not want to 
 so expected result would be 0 and the test would compare the SQL statement's 
 outcome to the expected result.
 
-
+</div>
